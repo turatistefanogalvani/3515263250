@@ -1,0 +1,28 @@
+Dichiarare un oggetto
+1. Che differenza c’è tra una variabile e un oggetto?
+2. Compara come si dichiara una variabile a come si dichiara un oggetto.
+3. Come si rappresentano le proprietà e i corrispettivi valori  in un oggetto Javascript?
+4. A cosa serve la “,” all’interno di un oggetto?
+
+1. La differenza principale è che la “variabile” può essere assegnata una sola volta all’oggetto.
+Mentre gli “oggetti” sono un insieme di valori che puoi assegnare ad un oggetto.
+
+2.Una variabile si dichiara scrivendo questo codice:
+ “ let car = "Fiat"; “ 
+Un oggetto si dichiara in questo modo:
+const car = {type:"Fiat", model:"500", color:"white"};
+
+3.La proprietà dell'oggetto è identificata da una "chiave" (che può essere una stringa o un simbolo), mentre il valore associato può essere qualsiasi tipo di dato, come stringhe, numeri, array, funzioni, oggetti, ecc.
+
+4. La virgola all'interno di un oggetto in JavaScript serve a separare le singole proprietà e i loro valori. Ogni coppia chiave-valore deve essere separata da una virgola, tranne l'ultima coppia.
+
+
+
+
+
+
+Accedere alle proprietà di un oggetto
+Come si accede alla proprietà di un oggetto (spiega entrambi i modi con degli esempi).
+
+1. In questo modo: objectName.propertyName
+In questo modo: objectName["propertyName"]
