@@ -7,15 +7,15 @@ const animale1 = {
     }
 };
 const animale2 = {
-    specie: "cane",
-    razza: "bassotto",
+    specie: "maiale",
+    razza: "kunekune",
     zampe: 4,
     stampa: function() {
         return this.specie + " " + this.razza + " " + this.zampe
     }
 };
 const animale3 = {
-    specie: "gallina",
+    specie: "gallo",
     razza: "andalusa",
     zampe: 2,
     stampa: function() {
@@ -23,11 +23,11 @@ const animale3 = {
     }
 }
 function mostraAnimale0() {
-    document.getElementById("info1").innerHTML = animale1.stampa();
+    document.getElementById("mucca").innerHTML = animale1.stampa();
 }
 function mostraAnimale1() {
-    document.getElementById("info2").innerHTML = animale2.stampa();
+    document.getElementById("maiale").innerHTML = animale2.stampa();
 }
 function mostraAnimale2() {
-    document.getElementById("info3").innerHTML = animale3.stampa();
+    document.getElementById("gallo").innerHTML = animale3.stampa();
 }

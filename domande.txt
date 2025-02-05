@@ -16,13 +16,32 @@ const car = {type:"Fiat", model:"500", color:"white"};
 
 4. La virgola all'interno di un oggetto in JavaScript serve a separare le singole proprietà e i loro valori. Ogni coppia chiave-valore deve essere separata da una virgola, tranne l'ultima coppia.
 
-
-
-
-
-
-Accedere alle proprietà di un oggetto
+5. Accedere alle proprietà di un oggetto
 Come si accede alla proprietà di un oggetto (spiega entrambi i modi con degli esempi).
 
 1. In questo modo: objectName.propertyName
 In questo modo: objectName["propertyName"]
+
+6. Scrivi la definizione di metodo in javascritpt
+7. Come si dichiara un metodo (o funzione) di un oggetto?
+8. A cosa serve la parola chiave this?
+9. Come si accede a un metodo?
+
+6. Definizione di metodo in JavaScript Un metodo è una funzione che appartiene a un oggetto.
+
+Dichiarazione di un metodo in un oggetto
+
+7. let persona = {
+  nome: "Mario",
+  saluta: function() {
+    console.log("Ciao, sono " + this.nome);
+  }
+};
+
+8. this si riferisce all'oggetto in cui il metodo è definito. In questo caso, this.nome prende il valore di nome dentro persona.
+
+9. Si usa la notazione con il punto (.):
+
+persona.saluta(); Output: "Ciao, sono Mario"
+
+persona.saluta(); Output: "Ciao, sono Mario"
